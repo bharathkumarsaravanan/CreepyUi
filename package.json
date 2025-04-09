@@ -1,0 +1,27 @@
+{
+  "name": "creepyui",
+  "version": "1.0.0",
+  "main": "./dist/creepyui.umd.js",
+  "module": "./dist/creepyui.es.js",
+  "types": "./dist/types/index.d.ts",
+  "files": ["dist"],
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "clean": "rm -rf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Private component library",
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.2.5"
+  }
+}
