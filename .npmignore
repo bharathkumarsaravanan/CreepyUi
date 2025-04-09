@@ -1,0 +1,4 @@
+playground/
+tests/
+*.test.tsx
+vite.config.ts
